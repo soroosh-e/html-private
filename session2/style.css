@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #6d6767;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+
+    /* align-content: flex-start; */
+    /* gap: 10px; */
+    column-gap: 10px;
+}
+
+.item {
+    background-color: #39f57b;
+    padding: 25px;
+    width: 30%;
+}
+
+.bottom {
+    align-self: flex-end;
+}
