@@ -1,0 +1,63 @@
+.my-video {
+    width: 500px;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list li::before {
+    content: "+";
+
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-left: 8px;
+
+    /* position: relative;
+    top: 2px;
+    left: -5px; */
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: #888;
+    transition: 1s;
+
+    margin: 100px auto;
+    
+}
+
+.box:hover {
+    /* transform: rotate(-20deg); */
+    /* transform: scale(1.4); */
+    /* transform: skewY(20deg); */
+    transform: translate(-50px, -100px);
+}
+
+.text {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #e2e2e2;
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.title:after {
+    content: " ";
+
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #888;
+    margin-top: 10px;
+}
