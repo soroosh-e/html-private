@@ -1,0 +1,13 @@
+img {
+    max-width: 100%;
+}
+
+.all-box {
+    padding: 50px 0;
+    background-color: bisque;
+}
+
+.box {
+    background-color: #0b87ad;
+    height: 140px;
+}
