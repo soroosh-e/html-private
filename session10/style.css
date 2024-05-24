@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+}
+
+.menu-1 ul li {
+    list-style: none;
+}
+
+.menu-1 ul li:before {
+    content: "\f0d8";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    margin-right: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.menu-1 ul li:hover::before {
+    transform: rotate(90deg);
+}
